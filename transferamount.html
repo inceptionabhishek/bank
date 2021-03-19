@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>basic banking</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bad+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,400i,600,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Animated-Filterable-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Animated-numbers-section.css">
+    <link rel="stylesheet" href="assets/css/Animated-Typing-With-Blinking.css">
+    <link rel="stylesheet" href="assets/css/Button-Change-Text-on-Hover.css">
+    <link rel="stylesheet" href="assets/css/content_blocks_modernstyle.css">
+    <link rel="stylesheet" href="assets/css/customer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="assets/css/Responsive-footer.css">
+    <link rel="stylesheet" href="assets/css/Social-Menu-Sticky.css">
+    <link rel="stylesheet" href="assets/css/sticky-dark-top-nav-with-dropdown.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Table-With-Search-1.css">
+    <link rel="stylesheet" href="assets/css/Table-With-Search.css">
+    <link rel="stylesheet" href="assets/css/Team.css">
+    <link rel="stylesheet" href="assets/css/vertical-navbar-with-menu-and-social-menu.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navbar-fixed-top navigation-clean-button">
+        <div class="container"><i class="fa fa-bank" style="font-size: 40px;"></i>
+            <div><a class="navbar-brand" href="index.html"><span style="color: rgb(245,249,255);">World Bank</span> </a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="color: rgba(252,243,243,0.5);"></span></button></div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav nav-right">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">home </a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">about </a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">faq </a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">contact </a></li>
+                </ul>
+                <p class="ml-auto navbar-text actions"> </p>
+            </div>
+        </div>
+    </nav>
+    <div class="col-md-12 search-table-col">
+        <div class="form-group pull-right col-lg-4"><input type="text" class="search form-control" placeholder="Search by typing here.."></div><span class="counter pull-right"></span>
+        <div class="table-responsive table-bordered table table-hover table-bordered results">
+            <table class="table table-bordered table-hover">
+                <thead class="bill-header cs">
+                    <tr>
+                        <th id="trs-hd" class="col-lg-1">SL. No.</th>
+                        <th id="trs-hd" class="col-lg-2">Area</th>
+                        <th id="trs-hd" class="col-lg-3">Customer Name</th>
+                        <th id="trs-hd" class="col-lg-2">Amount</th>
+                        <th id="trs-hd" class="col-lg-2">Date</th>
+                        <th id="trs-hd" class="col-lg-2">delete/Keep history</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="warning no-result">
+                        <td colspan="12"><i class="fa fa-warning"></i>&nbsp; No Result !!!</td>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>India</td>
+                        <td>Name 1</td>
+                        <td>1000</td>
+                        <td>23 march</td>
+                        <td><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-responsive table-bordered table table-hover table-bordered results">
+            <table class="table table-bordered table-hover">
+                <thead class="bill-header cs">
+                    <tr>
+                        <th id="trs-hd-55" class="col-lg-1">SL. No.</th>
+                        <th id="trs-hd-56" class="col-lg-2">Area</th>
+                        <th id="trs-hd-57" class="col-lg-3">Customer Name</th>
+                        <th id="trs-hd-58" class="col-lg-2">Amount</th>
+                        <th id="trs-hd-59" class="col-lg-2">Date</th>
+                        <th id="trs-hd-60" class="col-lg-2">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="warning no-result">
+                        <td colspan="12"><i class="fa fa-warning"></i>&nbsp; No Result !!!</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>India</td>
+                        <td>Name 2</td>
+                        <td>799</td>
+                        <td>24 march</td>
+                        <td><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-responsive table-bordered table table-hover table-bordered results">
+            <table class="table table-bordered table-hover">
+                <thead class="bill-header cs">
+                    <tr>
+                        <th id="trs-hd-13" class="col-lg-1">SL. No.</th>
+                        <th id="trs-hd-14" class="col-lg-2">Area</th>
+                        <th id="trs-hd-15" class="col-lg-3">Customer Name</th>
+                        <th id="trs-hd-16" class="col-lg-2">Amount</th>
+                        <th id="trs-hd-17" class="col-lg-2">Date</th>
+                        <th id="trs-hd-18" class="col-lg-2">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="warning no-result">
+                        <td colspan="12"><i class="fa fa-warning"></i>&nbsp; No Result !!!</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>India</td>
+                        <td>Name 3</td>
+                        <td>5666</td>
+                        <td>24 march</td>
+                        <td><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-responsive table-bordered table table-hover table-bordered results">
+            <table class="table table-bordered table-hover">
+                <thead class="bill-header cs">
+                    <tr>
+                        <th id="trs-hd-7" class="col-lg-1">SL. No.</th>
+                        <th id="trs-hd-8" class="col-lg-2">Area</th>
+                        <th id="trs-hd-9" class="col-lg-3">Customer Name</th>
+                        <th id="trs-hd-10" class="col-lg-2">Amount</th>
+                        <th id="trs-hd-11" class="col-lg-2">Date</th>
+                        <th id="trs-hd-12" class="col-lg-2">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="warning no-result">
+                        <td colspan="12"><i class="fa fa-warning"></i>&nbsp; No Result !!!</td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>India</td>
+                        <td>Name 4</td>
+                        <td>432</td>
+                        <td>24 march</td>
+                        <td><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-responsive table-bordered table table-hover table-bordered results">
+            <table class="table table-bordered table-hover">
+                <thead class="bill-header cs">
+                    <tr>
+                        <th id="trs-hd-1" class="col-lg-1">SL. No.</th>
+                        <th id="trs-hd-2" class="col-lg-2">Area</th>
+                        <th id="trs-hd-3" class="col-lg-3">Customer Name</th>
+                        <th id="trs-hd-4" class="col-lg-2">Amount</th>
+                        <th id="trs-hd-5" class="col-lg-2">Date</th>
+                        <th id="trs-hd-6" class="col-lg-2">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="warning no-result">
+                        <td colspan="12"><i class="fa fa-warning"></i>&nbsp; No Result !!!</td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td>India</td>
+                        <td>Name 5</td>
+                        <td>65</td>
+                        <td>24 march</td>
+                        <td><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-responsive table-bordered table table-hover table-bordered results">
+            <table class="table table-bordered table-hover">
+                <thead class="bill-header cs">
+                    <tr>
+                        <th id="trs-hd-55" class="col-lg-1">SL. No.</th>
+                        <th id="trs-hd-56" class="col-lg-2">Area</th>
+                        <th id="trs-hd-57" class="col-lg-3">Customer Name</th>
+                        <th id="trs-hd-58" class="col-lg-2">Amount</th>
+                        <th id="trs-hd-59" class="col-lg-2">Date</th>
+                        <th id="trs-hd-60" class="col-lg-2">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="warning no-result">
+                        <td colspan="12"><i class="fa fa-warning"></i>&nbsp; No Result !!!</td>
+                    </tr>
+                    <tr>
+                        <td>06</td>
+                        <td>India</td>
+                        <td>Name 6</td>
+                        <td>455</td>
+                        <td>24 march</td>
+                        <td><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/Animated-Filterable-Gallery.js"></script>
+    <script src="assets/js/Animated-Filterable-Gallery-1.js"></script>
+    <script src="assets/js/Animated-numbers-section.js"></script>
+    <script src="assets/js/Animated-Typing-With-Blinking.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/Table-With-Search.js"></script>
+    <script src="assets/js/vertical-navbar-with-menu-and-social-menu.js"></script>
+</body>
+
+</html>
